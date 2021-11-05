@@ -22,8 +22,10 @@
 
 ### 코드 파일 설명
 
-
-
+- **lipgloss_category_analysis.ipynb:** Dash와 Plotly를 이용해 제품별 리뷰 수, 브랜드 분포, 브랜드별 평균 가격 그래프를 시각화하고 이를 대시보드화 하는 코드 파일.
+- **dash_network.ipynb:** Dash와 Cytoscape를 이용해 제품 리뷰 키워드 네트워크를 시각화하는 코드 파일.
+- **lipgloss_category.json:** lipgloss_category_analysis.ipynb 파일의 시각화에 필요한 샘플 데이터 파일.
+- **product_6015_elist.json:** dash_network.ipynb 파일의 시각화에 필요한 샘플 데이터 파일.
 
 <br>
 
