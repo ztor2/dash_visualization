@@ -34,7 +34,7 @@
 
 <br>
 
-<p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/rXY5GFUMd5.png" width="60%" align="center"> </p>
+<p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/rXY5GFUMd5.png" width="75%" align="center"> </p>
 <p align="center">  <b> 그림 2. </b> 시각화에 사용할 화장품 정보 데이터셋. </p>
 
 <br>
