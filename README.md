@@ -49,7 +49,7 @@
 5. 그래프를 app.layout에 dcc.Graph 변수로 할당 후 결과를 확인한다.
 
 <p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/dUFkND35fI.gif" width="60%" align="center"> </p>
-<p align="center">  <b> 그림 2. </b> Dash와 Plotly를 이용한 제품별 리뷰 수 Top 30 막대 그래프. </p>
+<p align="center">  <b> 그림 3. </b> Dash와 Plotly를 이용한 제품별 리뷰 수 Top 30 막대 그래프. </p>
 
 <br>
 
@@ -63,7 +63,7 @@
 6. 그래프를 app.layout에 dcc.Graph 변수로 할당 후 결과를 확인한다.
 
 <p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/ZKSS5xtDSd.gif" width="50%" align="center"> </p>
-<p align="center">  <b> 그림 2. </b> Dash와 Plotly를 이용한 브랜드 분포 파이 그래프. </p>
+<p align="center">  <b> 그림 4. </b> Dash와 Plotly를 이용한 브랜드 분포 파이 그래프. </p>
 
 <br>
 
@@ -76,9 +76,21 @@
 5. 그래프를 app.layout에 dcc.Graph 변수로 할당 후 결과를 확인한다.
 
 <p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/KREp79ds30.gif" width="50%" align="center"> </p>
-<p align="center">  <b> 그림 3. </b> Dash와 Plotly를 이용한 브랜드 평균 가격 산포도 그래프. </p>
+<p align="center">  <b> 그림 5. </b> Dash와 Plotly를 이용한 브랜드 평균 가격 산포도 그래프. </p>
 
 <br>
 
+### 리뷰 키워드 네트워크 그래프
 
+- 리뷰 데이터로 구축한 키워드의 관계 데이터로 네트워크를 구축해본다.
+1. Edgelist 형식으로 데이터를 구축하며, weight는 PMI(pointwise 2. mutual information)을 계산한 후 정규화하여 사용한다.
+3. 데이터의 노드, 링크들을 elements에 할당할 수 있도록 데이터 형식을 맞추어 변수에 저장한다.
+4. Cytoscape 개체의 elements에 노드와 링크를 추가해 네트워크를 구축한다.
+5. stylesheet 변수에 네트워크의 각종 옵션을 설정한다.
+6. Callback 기능을 이용해 interactive 기능을 추가한다.
+7. 네트워크를 확인하고, 네트워크의 특징에 따라 노드의 크기, 데이터 수, 레이아웃 등을 조정한다.
 
+<p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/QHhDEQDGqU.gif" width="50%" align="center"> </p>
+<p align="center">  <b> 그림 6. </b> Dash와 Cytoscape를 이용한 화장품 리뷰 키워드 네트워크 그래프. </p>
+
+<br>
