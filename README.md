@@ -90,7 +90,7 @@
 3. 데이터의 노드, 링크들을 elements에 할당할 수 있도록 데이터 형식을 맞추어 변수에 저장한다.
 4. Cytoscape 개체의 elements에 노드와 링크를 추가해 네트워크를 구축한다.
 5. stylesheet 변수에 네트워크의 각종 옵션을 설정한다.
-6. Callback 기능을 이용해 interactive 기능을 추가한다.
+6. Callback 기능을 이용해 네트워크 레이아웃을 변경하거나, edge에 마우스를 올리면 weight(PMI, point mutual information)를 표시해주는 interactive 기능을 추가한다.
 7. 네트워크를 확인하고, 네트워크의 특징에 따라 노드의 크기, 데이터 수, 레이아웃 등을 조정한다.
 
 <p align="center"> <img src="https://i.esdrop.com/d/fha5flk1blzo/QHhDEQDGqU.gif" width="50%" align="center"> </p>
