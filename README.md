@@ -86,7 +86,7 @@
 ### 리뷰 키워드 네트워크 그래프
 
 - 리뷰 데이터로 구축한 키워드의 관계 데이터로 네트워크를 구축해본다.
-1. Edgelist 형식으로 데이터를 구축하며, weight는 PMI(pointwise 2. mutual information)을 계산한 후 정규화하여 사용한다.
+1. Edgelist 형식으로 데이터를 구축하며, weight는 PMI(pointwise mutual information)을 계산한 후 정규화하여 사용한다.
 3. 데이터의 노드, 링크들을 elements에 할당할 수 있도록 데이터 형식을 맞추어 변수에 저장한다.
 4. Cytoscape 개체의 elements에 노드와 링크를 추가해 네트워크를 구축한다.
 5. stylesheet 변수에 네트워크의 각종 옵션을 설정한다.
